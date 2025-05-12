@@ -1,0 +1,29 @@
+server:
+  port: 3068
+
+spring:
+  couchbase:
+    connection-string: couchbase://127.0.0.1
+    username: Administrator
+    password: 123456
+    bucket-name: test
+    env:
+      timeouts:
+        connect: 10000
+        key-value: 2500
+        query: 7500
+      io:
+        min-endpoints: 1
+        max-endpoints: 4
+      compression: true
+  data:
+    redis:
+      timeout: 5000
+      port: 6379
+      host: localhost
+
+logging:
+  level:
+    com.performance: DEBUG
+    com.couchbase.client: INFO
+    org.springframework.data.couchbase: INFO 
