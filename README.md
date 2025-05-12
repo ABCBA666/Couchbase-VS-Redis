@@ -38,3 +38,7 @@ Apache License 2.0
 2. 确保Redis和Couchbase服务已启动并可访问。
 3. 配置`application.yml`文件中的数据库连接信息。
 4. 使用API或前端界面提交测试请求，查看测试结果。
+
+<img width="1268" alt="1747034304416" src="https://github.com/user-attachments/assets/58b55330-7b81-42ca-849a-c809d77c6d52" />
+<img width="1279" alt="1747034368101" src="https://github.com/user-attachments/assets/eac925b8-52c0-465e-835f-7f684c67e2bc" />
+<img width="1267" alt="1747034442305" src="https://github.com/user-attachments/assets/a8c2e948-44d8-49b5-add3-390e64d9e30d" />
